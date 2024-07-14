@@ -144,13 +144,13 @@
       if (isWeixin) { // 微信中直接跳转到应用宝
         window.location.href = 'https://www.123pan.com/s/ZetA-nU3mA.html';
       } else {
-        if (isIOS) {
-          downloadInIOS();
-          return false;
-        } else {
+        //if (isIOS) {
+          //downloadInIOS();
+          //return false;
+        //} else {
           downloadInAndroid();
-          return false;
-        }
+          //return false;
+        //}
       }
       return false;
     }
